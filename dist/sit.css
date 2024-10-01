@@ -1,0 +1,43 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: bordre box;
+}
+body{
+    background-color: #111;
+}
+.b{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: rabbit 5s infinite;
+    position: relative;
+}
+@keyframes rabbit{
+    0%{
+        top:0%;
+        left:0%;
+        background-color: red;
+    }
+    25%{
+       top:0%;
+       left:1000px;
+       background-color: aquamarine;
+    }
+    50%{
+            top:900px;
+            left:1000px;
+            background-color: antiquewhite;
+    }
+    75%{
+        top:900px;
+        left:0%;
+        background-color:blueviolet;
+    }
+100%{
+    top:0%;
+    left:0%;
+    background-color: aqua;
+    }
+}
