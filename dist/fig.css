@@ -51,11 +51,11 @@ transform: rotate(-45deg)scale(1.09);
 transform: rotate(-45deg)scale(1.02);
     }
 }
-.circle{
-    height:400px;
-    width:400px;
+.circle {
+    height: 285px;
+    width: 286px;
     background-color: transparent;
-    border-radius:80%;
+    border-radius: 80%;
     border: 2px solid skyblue;
     animation: cir 2s linear infinite;
     position: absolute;
@@ -71,13 +71,32 @@ transform: rotate(-45deg)scale(1.02);
         transition: 2s;
     }
 }
-.rectangle{
-    height: 500px;
-    width: 500px;
-    background-color: transparent;
-    border:3px solid blue;
-    position: absolute;
-    box-shadow: -10px 20px 90px skyblue;
+
+    .rectangle {
+        height: 331px;
+        width: 291px;
+        background-color: transparent;
+        border: 3px solid blue;
+        position: absolute;
+        box-shadow: -10px 20px 90px skyblue;
+        animation: rect 2s linear infinite;
+    }
     
-    
+
+@keyframes rect {
+    0%{
+    transform:rotate(360deg) ;
+    }
+    25%{
+
+    }
+    50%[
+
+    ]
+    75%{
+
+    }
+    100%{
+
+    }
 }
